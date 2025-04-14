@@ -120,13 +120,13 @@ def format_activity_name(activity_key):
         "km_electric_passenger_train_traveled": "Electric Train (km)", "km_bus_traveled": "Bus (km)",
         "km_petrol_car_traveled": "Petrol Car (km)", "km_Motorcycle_traveled": "Motorcycle (km)",
         "km_ev_scooter_traveled": "E-Scooter (km)", "km_ev_car_traveled": "Electric Car (km)",
-        "diesel_car_traveled": "Diesel Car (km)", "beef_products_consumed": "Beef Products (kg)",
-        "poultry_products_consumed": "Poultry Products (kg)", "pork_products_consumed": "Pork Products (kg)",
-        "fish_products_consumed": "Fish Products (kg)", "other_meat_products_consumed": "Other Meat (kg)",
-        "processed_rice_consumed": "Rice (kg)", "sugar_consumed": "Sugar (kg)",
-        "vegetable_oils_fats_consumed": "Veg Oils/Fats (kg)", "dairy_products_consumed": "Dairy Products (kg)",
-        "other_food_products_consumed": "Other Food (kg)", "water_consumed": "Water Consumed (L)",
-        "electricity_used": "Electricity Used (kWh)", "hotel_stay": "Hotel Nights",
+        "diesel_car_traveled": "Diesel Car (km)", "beef_products_consumed": "Beef Products (euro)",
+        "poultry_products_consumed": "Poultry Products (euro)", "pork_products_consumed": "Pork Products (euro)",
+        "fish_products_consumed": "Fish Products (euro)", "other_meat_products_consumed": "Other Meat (euro)",
+        "processed_rice_consumed": "Rice (euro)", "sugar_consumed": "Sugar (euro)",
+        "vegetable_oils_fats_consumed": "Veg Oils/Fats (euro)", "dairy_products_consumed": "Dairy Products (euro)",
+        "other_food_products_consumed": "Other Food (euro)", "water_consumed": "Water Consumed (m3)",
+        "electricity_used": "Electricity Used (kWh)", "hotel_stay": "Hotel Nights (room-night)",
     }
     return mapping.get(activity_key, activity_key.replace("_", " ").capitalize())
 
