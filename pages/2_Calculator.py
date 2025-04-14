@@ -6,7 +6,7 @@ import plotly.express as px
 # from reportlab.pdfgen import canvas    # PDF generation commented out
 # from reportlab.lib.units import cm     # PDF generation commented out
 from io import BytesIO
-import traceback
+import traceback 
 
 # --- App Config ---
 st.set_page_config(page_title="GreenPrint", page_icon="🌿", layout="centered")
